@@ -7,6 +7,7 @@
   "author": "Lauren Thorud <lthorud12@gmail.com>",
   "license": "MIT",
   "private": true,
+  "homepage": "https://github.com/LalaIAm/notedly#readme",
   "scripts": {
     "dev": "parcel src/index.html",
     "deploy": "parcel build src/index.html --public-url ./",
