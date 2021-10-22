@@ -2,14 +2,14 @@
   "name": "notedly",
   "version": "1.0.0",
   "description": "A web note taking app",
-  "main": "src/index.js",
+ 
   "repository": "https://github.com/LalaIAm/notedly.git",
   "author": "Lauren Thorud <lthorud12@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "parcel src/index.html",
-    "deploy:src": "parcel build src/index.html --public-url ./",
+    "deploy": "parcel build src/index.html --public-url ./",
     "cy:run": "cypress run",
     "cy:open": "cypress open"
   },
